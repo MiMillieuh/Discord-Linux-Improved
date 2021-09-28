@@ -1,4 +1,6 @@
 #!bin/bash
+
+test
 (
 pkexec bash -c 'rm -rf discord*.tar.gz* ; rm -rf discord*.tar.gz ; wget --content-disposition "http://discordapp.com/api/download?platform=linux&format=tar.gz" -P /opt; echo "33" ; 
 echo "# Installing Discord..." ;
