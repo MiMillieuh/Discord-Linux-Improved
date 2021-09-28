@@ -4,5 +4,5 @@ INPUT2=$(cat /opt/Discord/ver.txt)
 if [[ "$INPUT2" == "$SUBSTRING" ]]
 then 
 /opt/Discord/Discord
-else sh /opt/Discord/updater.sh ; sh /opt/Discord/filechecker.sh
+else sh /opt/Discord/updater.sh
 fi
