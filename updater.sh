@@ -14,4 +14,4 @@ if [ "$?" = -1 ] ; then
         zenity --error \
           --text="Update canceled." && rm -rf discord-*.tar.gz
 fi
-sh opt/Discord/filechecker.sh
+sh /opt/Discord/filechecker.sh
