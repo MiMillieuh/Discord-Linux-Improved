@@ -3,6 +3,6 @@ SUBSTRING=$(echo $INPUT| cut -d'/' -f 7)
 INPUT2=$(cat /opt/Discord/ver.txt)
 if [[ "$INPUT2" == "$SUBSTRING" ]]
 then 
-echo "Meme ver"
+/opt/Discord/Discord
 else sh /opt/Discord/updater.sh
 fi
