@@ -10,7 +10,7 @@ zenity --progress --auto-close --auto-kill\
   --text="Downloading Discord..." \
   --percentage=0
 
-sh /opt/Discord/filechecker.sh 
+bash /opt/Discord/filechecker.sh 
 
 if [ "$?" = -1 ] ; then
         zenity --error \
